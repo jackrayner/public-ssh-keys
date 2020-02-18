@@ -6,13 +6,14 @@ setup_git() {
 }
 
 commit_website_files() {
+  git checkout -b gh-keys
   git add .
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
 upload_files() {
   git remote add origin https://${GH_TOKEN}@github.com/jackrayner/public-ssh-keys.git > /dev/null 2>&1
-  git push --quiet
+  git push --quiet --set-upstream origin-keys gh-keys
 }
 
 setup_git
