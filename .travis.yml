@@ -4,7 +4,3 @@ addons:
     - jq
 script:
 - "./get-keys.sh jackrayner"
-- "./push.sh"
-env:
-  global:
-  - secure: Q5IGnW5NAy8AcVc22PyTIqrcaZcu11u9cSKH+TtCtJxT1tI7IQIMuhXvVnv/VDQ3Is5IYfUvk/0vgnOROf9x+ecCuaGIat/AqKCAOFXOJD6qKURXduZA2/XXAe07qLYTgJ+qGJfzWG3VTpJYiShKVdFHXJWP6MCSr0FIkalPZaTb+I2TZln3DHPDfodf45871dAVMwi/XTEaqZbAhvDabmHC880gnruXYaA3uPJdnNZBeX0xZIK6MSzJbgY8Br36TRRN5qawuSb0Yil0SRmbWdqazwOjrDl36u3j3uEJu7Duvy7Qoio0FpRxyohLNN66gpmobux0WVEN6MT3hmhwijvuBhGg07Mumo03+uyesVFFpn+z6IoYfjGscWyj/oKhPj4pjS9xGpSap93yjb+7yC6blSXJeMKu+Jl64H8WI/DNerO1l3r7sVXqY4MAP0xCmlSV4BP21kKT0tShdOxC+vEEiAuDQfWJxKLfY3RfFREVIyofQx6raD9vM/37saQ9vdhlHptuX0DIN96Ki55ZGh4D+PMsKXlkIXJT2pN/GKA784siAbFXrHxGx781SPx0QtA+WhUx2RDcbYM3AlfoZ9Q5KXXG4/ehlTmjiMgL+Lt69a7+hiBZSPpkqGhNqHrteriUvCY1OlZv79bnUxs1K4fh7GvAijY3R29OVlPC+K8=
