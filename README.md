@@ -1,5 +1,14 @@
 # Public SSH Keys [![Build Status](https://travis-ci.org/jackrayner/public-ssh-keys.svg?branch=master)](https://travis-ci.org/jackrayner/public-ssh-keys)
-This repository contains Jack Rayner's public SSH keys.
+Simple Bash script to get a GitHub user's public SSH keys.
 
-## Keys
-Keys are stored, one per line, in the keys file. This is auto-generated when Travis CI builds are run.
+## Requirements
+
+- `jq`
+
+## Usage
+
+```
+jack@laptop:~/code/public-ssh-keys $ ./get-keys.sh jackrayner
+ssh-rsa AaaaBbbbbbCCcccDDDDD11111222222
+jack@laptop:~/code/public-ssh-keys $
+```
